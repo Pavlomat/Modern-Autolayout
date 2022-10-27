@@ -15,7 +15,6 @@ class RootViewController: UIViewController {
             let view = UIView()
        view.backgroundColor = .green
        view.translatesAutoresizingMaskIntoConstraints = false
-       view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
             return view
         }()
     
@@ -23,7 +22,6 @@ class RootViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
         return view
     }()
     
