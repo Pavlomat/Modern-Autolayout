@@ -11,41 +11,48 @@ class RootViewController: UIViewController {
     
     let padding: CGFloat = 50.0
     
-    private let greenView: UIView = {
-        let view = TileView()
-        view.backgroundColor = .green
-        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin] //это красненькие стрелочки для направления изменения величины растяжения
+   private let greenView: UIView = {
+            let view = UIView()
+       view.backgroundColor = .green
+       view.translatesAutoresizingMaskIntoConstraints = false
+       view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
+            return view
+        }()
+    
+    private let redView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .red
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
         return view
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        setupView()
     }
     
     override func viewWillLayoutSubviews() { //called before the view controller’s view starts to layout its subviews, все расчеты с view делается в этом методе
+        
         if greenView.superview == nil { //проверка, если зеленый вью еще не был добавлен на экран, то...
             view.addSubview(greenView)
-            let width = view.bounds.width - 2 * padding
-            greenView.frame = CGRect(x: padding, y: padding, width: width, height: 3 * padding)
+        }
+        
+        if redView.superview == nil { //проверка, если зеленый вью еще не был добавлен на экран, то...
+            view.addSubview(redView)
         }
     }
     
-//    func setupView() {
-//        greenView.translatesAutoresizingMaskIntoConstraints = false //ОБЯЗАТЕЛЬНО пишется для того, чтобы XCode сам не создавал констрейнтс для созданных в коде view и далее мы сами делаем констрейнты для созданного в коде view
-        
-//        NSLayoutConstraint.activate([
-//            greenView.topAnchor.constraint(equalTo: view.topAnchor),
-//            greenView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-//            greenView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-//            greenView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
-//        ])
-//    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        // 5% radius
-        let radius = greenView.bounds.width / 20
-        greenView.layer.cornerRadius = radius
+    override func viewDidLayoutSubviews() { //рисует вьюшки уже после их появления на главном экране
+        NSLayoutConstraint.activate([
+            greenView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),
+            greenView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+            greenView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            greenView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -padding),
+            
+            redView.heightAnchor.constraint(equalToConstant: 100.0),
+            redView.leadingAnchor.constraint(equalTo: greenView.leadingAnchor, constant: 25.0),
+            redView.trailingAnchor.constraint(equalTo: greenView.trailingAnchor, constant: -25.0),
+            redView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
     }
 }

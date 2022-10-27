@@ -13,6 +13,7 @@
 		BA9D25FB290A807900C8F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */; };
 		BA9D2605290A890000C8F935 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D2604290A890000C8F935 /* TileView.swift */; };
 		BA9D2607290A901F00C8F935 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D2606290A901F00C8F935 /* RootViewController.swift */; };
+		BA9D2609290AC02900C8F935 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D2608290AC02900C8F935 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA9D25FC290A807900C8F935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9D2604290A890000C8F935 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		BA9D2606290A901F00C8F935 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		BA9D2608290AC02900C8F935 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BA9D25EE290A807900C8F935 /* AppDelegate.swift */,
 				BA9D25F0290A807900C8F935 /* SceneDelegate.swift */,
 				BA9D2606290A901F00C8F935 /* RootViewController.swift */,
+				BA9D2608290AC02900C8F935 /* MainViewController.swift */,
 				BA9D2604290A890000C8F935 /* TileView.swift */,
 				BA9D25F7290A807900C8F935 /* Assets.xcassets */,
 				BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */,
 				BA9D2605290A890000C8F935 /* TileView.swift in Sources */,
 				BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */,
+				BA9D2609290AC02900C8F935 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
