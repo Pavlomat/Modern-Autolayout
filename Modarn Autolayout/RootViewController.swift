@@ -31,8 +31,8 @@ class RootViewController: UIViewController {
         }
     }
     
-    func setupView() {
-        greenView.translatesAutoresizingMaskIntoConstraints = false //ОБЯЗАТЕЛЬНО пишется для того, чтобы XCode сам не создавал констрейнтс для созданных в коде view и далее мы сами делаем констрейнты для созданного в коде view
+//    func setupView() {
+//        greenView.translatesAutoresizingMaskIntoConstraints = false //ОБЯЗАТЕЛЬНО пишется для того, чтобы XCode сам не создавал констрейнтс для созданных в коде view и далее мы сами делаем констрейнты для созданного в коде view
         
 //        NSLayoutConstraint.activate([
 //            greenView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -40,7 +40,7 @@ class RootViewController: UIViewController {
 //            greenView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
 //            greenView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
 //        ])
-    }
+//    }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
