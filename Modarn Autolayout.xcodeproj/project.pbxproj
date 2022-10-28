@@ -17,6 +17,7 @@
 		BA9D260B290AC8DB00C8F935 /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D260A290AC8DB00C8F935 /* AdditionViewController.swift */; };
 		BAC48053290BC86C00315266 /* StopGoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48052290BC86C00315266 /* StopGoView.swift */; };
 		BAC48055290BCF4D00315266 /* StopGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48054290BCF4D00315266 /* StopGoViewController.swift */; };
+		BAC48057290BD32400315266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48056290BD32400315266 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BA9D260A290AC8DB00C8F935 /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
 		BAC48052290BC86C00315266 /* StopGoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopGoView.swift; sourceTree = "<group>"; };
 		BAC48054290BCF4D00315266 /* StopGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopGoViewController.swift; sourceTree = "<group>"; };
+		BAC48056290BD32400315266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				BA9D260A290AC8DB00C8F935 /* AdditionViewController.swift */,
 				BA9D2608290AC02900C8F935 /* MainViewController.swift */,
 				BA9D2604290A890000C8F935 /* TileView.swift */,
+				BAC48056290BD32400315266 /* TabBarController.swift */,
 				BAC48054290BCF4D00315266 /* StopGoViewController.swift */,
 				BAC48052290BC86C00315266 /* StopGoView.swift */,
 				BA9D25F7290A807900C8F935 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				BAC48055290BCF4D00315266 /* StopGoViewController.swift in Sources */,
 				BA9D260B290AC8DB00C8F935 /* AdditionViewController.swift in Sources */,
 				BA9D2607290A901F00C8F935 /* RootViewController.swift in Sources */,
+				BAC48057290BD32400315266 /* TabBarController.swift in Sources */,
 				BAC48053290BC86C00315266 /* StopGoView.swift in Sources */,
 				BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */,
 				BA9D2605290A890000C8F935 /* TileView.swift in Sources */,
@@ -302,6 +306,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +334,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

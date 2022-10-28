@@ -28,7 +28,7 @@ class MainViewController: UIViewController {
         if greenView.superview == nil { //проверка, если зеленый вью еще не был добавлен на экран, то...
             view.addSubview(greenView)
             let width = view.bounds.width - 2 * padding
-            greenView.frame = CGRect(x: padding, y: padding, width: width, height: 3 * padding)
+            greenView.frame = CGRect(x: padding, y: padding, width: width, height: view.bounds.height * 0.25)
         }
     }
     
