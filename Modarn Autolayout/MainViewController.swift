@@ -14,7 +14,7 @@ class MainViewController: UIViewController {
         private let greenView: UIView = {
             let view = TileView()
             view.backgroundColor = .green
-            view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin] //это красненькие стрелочки для направления изменения величины растяжения
+            view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin] //это красненькие стрелочки для направления изменения величины растяжения, если написано greenView.translatesAutoresizingMaskIntoConstraints = false то эта запись не нужна
             return view
         }()
 
