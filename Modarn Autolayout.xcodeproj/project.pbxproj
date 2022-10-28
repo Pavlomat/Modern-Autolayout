@@ -11,13 +11,8 @@
 		BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D25F0290A807900C8F935 /* SceneDelegate.swift */; };
 		BA9D25F8290A807900C8F935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F7290A807900C8F935 /* Assets.xcassets */; };
 		BA9D25FB290A807900C8F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */; };
-		BA9D2605290A890000C8F935 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D2604290A890000C8F935 /* TileView.swift */; };
-		BA9D2607290A901F00C8F935 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D2606290A901F00C8F935 /* RootViewController.swift */; };
-		BA9D2609290AC02900C8F935 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D2608290AC02900C8F935 /* MainViewController.swift */; };
-		BA9D260B290AC8DB00C8F935 /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D260A290AC8DB00C8F935 /* AdditionViewController.swift */; };
-		BAC48053290BC86C00315266 /* StopGoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48052290BC86C00315266 /* StopGoView.swift */; };
-		BAC48055290BCF4D00315266 /* StopGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48054290BCF4D00315266 /* StopGoViewController.swift */; };
 		BAC48057290BD32400315266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48056290BD32400315266 /* TabBarController.swift */; };
+		BAC48059290BE36B00315266 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48058290BE36B00315266 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +22,8 @@
 		BA9D25F7290A807900C8F935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9D25FA290A807900C8F935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9D25FC290A807900C8F935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA9D2604290A890000C8F935 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
-		BA9D2606290A901F00C8F935 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		BA9D2608290AC02900C8F935 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BA9D260A290AC8DB00C8F935 /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
-		BAC48052290BC86C00315266 /* StopGoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopGoView.swift; sourceTree = "<group>"; };
-		BAC48054290BCF4D00315266 /* StopGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopGoViewController.swift; sourceTree = "<group>"; };
 		BAC48056290BD32400315266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BAC48058290BE36B00315266 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +58,8 @@
 			children = (
 				BA9D25EE290A807900C8F935 /* AppDelegate.swift */,
 				BA9D25F0290A807900C8F935 /* SceneDelegate.swift */,
-				BA9D2606290A901F00C8F935 /* RootViewController.swift */,
-				BA9D260A290AC8DB00C8F935 /* AdditionViewController.swift */,
-				BA9D2608290AC02900C8F935 /* MainViewController.swift */,
-				BA9D2604290A890000C8F935 /* TileView.swift */,
 				BAC48056290BD32400315266 /* TabBarController.swift */,
-				BAC48054290BCF4D00315266 /* StopGoViewController.swift */,
-				BAC48052290BC86C00315266 /* StopGoView.swift */,
+				BAC48058290BE36B00315266 /* FirstViewController.swift */,
 				BA9D25F7290A807900C8F935 /* Assets.xcassets */,
 				BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */,
 				BA9D25FC290A807900C8F935 /* Info.plist */,
@@ -152,15 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC48055290BCF4D00315266 /* StopGoViewController.swift in Sources */,
-				BA9D260B290AC8DB00C8F935 /* AdditionViewController.swift in Sources */,
-				BA9D2607290A901F00C8F935 /* RootViewController.swift in Sources */,
 				BAC48057290BD32400315266 /* TabBarController.swift in Sources */,
-				BAC48053290BC86C00315266 /* StopGoView.swift in Sources */,
 				BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */,
-				BA9D2605290A890000C8F935 /* TileView.swift in Sources */,
 				BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */,
-				BA9D2609290AC02900C8F935 /* MainViewController.swift in Sources */,
+				BAC48059290BE36B00315266 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

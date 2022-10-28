@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         //TabBarController().selectedIndex = 1 открывает сначала 2-ю вкладку (индексы начинаются с 0)
-        window?.backgroundColor = .orange
+        window?.backgroundColor = .orange   //уровень цвета 1 (самый низкий)
         window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible() //делает окно видимым (обязательно)
         

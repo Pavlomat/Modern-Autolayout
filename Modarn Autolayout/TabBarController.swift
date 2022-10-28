@@ -13,15 +13,13 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .systemBackground
+//        view.backgroundColor = .white //уровень цвета 2 
            UITabBar.appearance().barTintColor = .red
            tabBar.tintColor = .purple
            setupVCs()
     }
     
-    fileprivate func createNavController(for rootViewController: UIViewController,
-                                                      title: String,
-                                                      image: UIImage) -> UIViewController {
+    fileprivate func createNavController(for rootViewController: UIViewController, title: String, image: UIImage) -> UIViewController {
             let navController = UINavigationController(rootViewController: rootViewController)
             navController.tabBarItem.title = title
             navController.tabBarItem.image = image
@@ -32,9 +30,9 @@ class TabBarController: UITabBarController {
     
     func setupVCs() {
             viewControllers = [
-                createNavController(for: StopGoViewController(), title: NSLocalizedString("Search", comment: ""), image: UIImage(systemName: "magnifyingglass")!),
-                createNavController(for: RootViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
-                createNavController(for: MainViewController(), title: NSLocalizedString("Profile", comment: ""), image: UIImage(systemName: "person")!)
+                createNavController(for: FirstViewController(), title: NSLocalizedString("Search", comment: ""), image: UIImage(systemName: "magnifyingglass")!),
+//                createNavController(for: RootViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
+//                createNavController(for: MainViewController(), title: NSLocalizedString("Profile", comment: ""), image: UIImage(systemName: "person")!)
             ]
         }
 }
