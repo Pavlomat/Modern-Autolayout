@@ -13,6 +13,8 @@
 		BA9D25FB290A807900C8F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */; };
 		BAC48057290BD32400315266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48056290BD32400315266 /* TabBarController.swift */; };
 		BAC48059290BE36B00315266 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48058290BE36B00315266 /* FirstViewController.swift */; };
+		BAC4805B290BEC7F00315266 /* NestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC4805A290BEC7F00315266 /* NestedView.swift */; };
+		BAC4805D290BED5C00315266 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC4805C290BED5C00315266 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA9D25FC290A807900C8F935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC48056290BD32400315266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BAC48058290BE36B00315266 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BAC4805A290BEC7F00315266 /* NestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedView.swift; sourceTree = "<group>"; };
+		BAC4805C290BED5C00315266 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BA9D25F0290A807900C8F935 /* SceneDelegate.swift */,
 				BAC48056290BD32400315266 /* TabBarController.swift */,
 				BAC48058290BE36B00315266 /* FirstViewController.swift */,
+				BAC4805C290BED5C00315266 /* SecondViewController.swift */,
+				BAC4805A290BEC7F00315266 /* NestedView.swift */,
 				BA9D25F7290A807900C8F935 /* Assets.xcassets */,
 				BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */,
 				BA9D25FC290A807900C8F935 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC4805D290BED5C00315266 /* SecondViewController.swift in Sources */,
 				BAC48057290BD32400315266 /* TabBarController.swift in Sources */,
+				BAC4805B290BEC7F00315266 /* NestedView.swift in Sources */,
 				BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */,
 				BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */,
 				BAC48059290BE36B00315266 /* FirstViewController.swift in Sources */,
