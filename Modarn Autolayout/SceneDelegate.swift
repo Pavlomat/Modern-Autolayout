@@ -15,8 +15,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
-        window?.backgroundColor = .yellow
-        window?.rootViewController = AdditionViewController()
+        window?.backgroundColor = .white
+        window?.rootViewController = StopGoViewController()
         window?.makeKeyAndVisible() //делает окно видимым (обязательно)
         
     }
