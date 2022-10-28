@@ -23,7 +23,7 @@ class AdditionViewController: UIViewController {
             let view = UIView()
        view.backgroundColor = .green
        view.translatesAutoresizingMaskIntoConstraints = false
-       view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
+//       view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
             return view
         }()
 
@@ -31,7 +31,7 @@ class AdditionViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .blue
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
+//        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
         return view
     }()
     

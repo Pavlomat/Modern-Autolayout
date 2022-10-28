@@ -13,17 +13,17 @@ class RootViewController: UIViewController {
     
    private let greenView: UIView = {
             let view = UIView()
-       view.backgroundColor = .green
        view.translatesAutoresizingMaskIntoConstraints = false
-       view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
+       view.backgroundColor = .green
+//       view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
             return view
         }()
     
     private let redView: UIView = {
         let view = UIView()
-        view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
+        view.backgroundColor = .red
+//        view.autoresizingMask = [.flexibleWidth, .flexibleBottomMargin]
         return view
     }()
     
