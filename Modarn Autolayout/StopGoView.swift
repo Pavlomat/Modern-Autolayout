@@ -27,6 +27,7 @@ class StopGoView: UIView {
     
     private func setupView() {
         addSubview(redView)
+        
         addSubview(greenView)
         
         NSLayoutConstraint.activate([
