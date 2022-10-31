@@ -30,9 +30,9 @@ class TabBarController: UITabBarController {
     
     func setupVCs() {
             viewControllers = [
-                createNavController(for: FirstViewController(), title: NSLocalizedString("Search", comment: ""), image: UIImage(systemName: "magnifyingglass")!),
-                createNavController(for: SecondViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
-//                createNavController(for: MainViewController(), title: NSLocalizedString("Profile", comment: ""), image: UIImage(systemName: "person")!)
+                createNavController(for: FirstViewController(), title: NSLocalizedString("First", comment: ""), image: UIImage(systemName: "1.circle")!),
+                createNavController(for: SecondViewController(), title: NSLocalizedString("Second", comment: ""), image: UIImage(systemName: "2.circle")!),
+                createNavController(for: EqualSpacingVC(), title: NSLocalizedString("Third", comment: ""), image: UIImage(systemName: "3.circle")!)
             ]
         }
 }
