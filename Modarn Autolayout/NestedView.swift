@@ -33,8 +33,6 @@ class NestedView: UIView {
     }
     
     private func setupView() {
-        // Build views
-        // Add constraints
         addSubview(nestedView)
         NSLayoutConstraint.activate([
                   nestedView.leadingAnchor.constraint(equalTo:
