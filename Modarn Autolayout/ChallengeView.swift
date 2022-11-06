@@ -9,6 +9,8 @@ import UIKit
 
 class ChallengeView: UIView {
     
+    private let padding: CGFloat = 25.0
+    
     private let blueView = makeView(color: .blue)
     private let redView = makeView(color: .red)
     
@@ -23,28 +25,20 @@ class ChallengeView: UIView {
     }
     
     private func setupView() {
-
+        
         addSubview(blueView)
         addSubview(redView)
         
         NSLayoutConstraint.activate([
-                  blueView.leadingAnchor.constraint(equalTo: 
-//              layoutMarginsGuide.leadingAnchor),
-//                  blueView.topAnchor.constraint(equalTo:
-//              layoutMarginsGuide.topAnchor),
-//                  blueView.bottomAnchor.constraint(equalTo:
-//              layoutMarginsGuide.bottomAnchor),
-//                  blueView.trailingAnchor.constraint(equalTo: redView.leadingAnchor, constant: 25.0),
-//                  redView.leadingAnchor.constraint(equalTo:
-//              layoutMarginsGuide.leadingAnchor),
-//                  redView.topAnchor.constraint(equalTo:
-//              layoutMarginsGuide.topAnchor),
-//                  redView.bottomAnchor.constraint(equalTo:
-//                                                    layoutMarginsGuide.bottomAnchor), redView.widthAnchor.constraint(equalTo: blueView.widthAnchor)
-                  
-       ])
+            blueView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
+            blueView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
+            blueView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding),
+            blueView.trailingAnchor.constraint(equalTo: redView.leadingAnchor, constant: padding),
+            redView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
+            redView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
+            redView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding), redView.widthAnchor.constraint(equalTo: blueView.widthAnchor)])
     }
-
+    
 }
 
 private extension UIView {
