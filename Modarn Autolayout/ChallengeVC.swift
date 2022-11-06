@@ -37,5 +37,4 @@ class ChallengeVC: UIViewController {
             challengeView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.25)
         ])
     }
-
 }
