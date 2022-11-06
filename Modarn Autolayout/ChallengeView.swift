@@ -33,10 +33,11 @@ class ChallengeView: UIView {
             blueView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
             blueView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
             blueView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding),
-            blueView.trailingAnchor.constraint(equalTo: redView.leadingAnchor, constant: padding),
+            blueView.trailingAnchor.constraint(equalTo: redView.trailingAnchor, constant: padding),
             redView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
             redView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
-            redView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding), redView.widthAnchor.constraint(equalTo: blueView.widthAnchor)])
+            redView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding), redView.widthAnchor.constraint(equalTo: blueView.widthAnchor)
+        ])
     }
     
 }
