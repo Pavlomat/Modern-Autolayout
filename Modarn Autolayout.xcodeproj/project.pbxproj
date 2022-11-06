@@ -7,23 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA65C7022917E92400550C3E /* ChallengeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65C7012917E92400550C3E /* ChallengeVC.swift */; };
-		BA65C7042917E93500550C3E /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65C7032917E93500550C3E /* ChallengeView.swift */; };
-		BA8D005F290FB9D000DFE178 /* EqualSpacingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8D005E290FB9D000DFE178 /* EqualSpacingVC.swift */; };
+		BA65C7062917FC7200550C3E /* FirstVC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65C7052917FC7200550C3E /* FirstVC7.swift */; };
+		BA65C708291804DF00550C3E /* SecondVC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65C707291804DF00550C3E /* SecondVC7.swift */; };
 		BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D25EE290A807900C8F935 /* AppDelegate.swift */; };
 		BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D25F0290A807900C8F935 /* SceneDelegate.swift */; };
 		BA9D25F8290A807900C8F935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F7290A807900C8F935 /* Assets.xcassets */; };
 		BA9D25FB290A807900C8F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */; };
 		BAC48057290BD32400315266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48056290BD32400315266 /* TabBarController.swift */; };
-		BAC48059290BE36B00315266 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48058290BE36B00315266 /* FirstViewController.swift */; };
-		BAC4805B290BEC7F00315266 /* NestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC4805A290BEC7F00315266 /* NestedView.swift */; };
-		BAC4805D290BED5C00315266 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC4805C290BED5C00315266 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA65C7012917E92400550C3E /* ChallengeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeVC.swift; sourceTree = "<group>"; };
-		BA65C7032917E93500550C3E /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
-		BA8D005E290FB9D000DFE178 /* EqualSpacingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualSpacingVC.swift; sourceTree = "<group>"; };
+		BA65C7052917FC7200550C3E /* FirstVC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC7.swift; sourceTree = "<group>"; };
+		BA65C707291804DF00550C3E /* SecondVC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC7.swift; sourceTree = "<group>"; };
 		BA9D25EB290A807900C8F935 /* Modarn Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modarn Autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9D25EE290A807900C8F935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9D25F0290A807900C8F935 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +26,6 @@
 		BA9D25FA290A807900C8F935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9D25FC290A807900C8F935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC48056290BD32400315266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		BAC48058290BE36B00315266 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BAC4805A290BEC7F00315266 /* NestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedView.swift; sourceTree = "<group>"; };
-		BAC4805C290BED5C00315266 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +61,8 @@
 				BA9D25EE290A807900C8F935 /* AppDelegate.swift */,
 				BA9D25F0290A807900C8F935 /* SceneDelegate.swift */,
 				BAC48056290BD32400315266 /* TabBarController.swift */,
-				BAC48058290BE36B00315266 /* FirstViewController.swift */,
-				BA8D005E290FB9D000DFE178 /* EqualSpacingVC.swift */,
-				BAC4805C290BED5C00315266 /* SecondViewController.swift */,
-				BAC4805A290BEC7F00315266 /* NestedView.swift */,
-				BA65C7012917E92400550C3E /* ChallengeVC.swift */,
-				BA65C7032917E93500550C3E /* ChallengeView.swift */,
+				BA65C7052917FC7200550C3E /* FirstVC7.swift */,
+				BA65C707291804DF00550C3E /* SecondVC7.swift */,
 				BA9D25F7290A807900C8F935 /* Assets.xcassets */,
 				BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */,
 				BA9D25FC290A807900C8F935 /* Info.plist */,
@@ -152,15 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA65C7022917E92400550C3E /* ChallengeVC.swift in Sources */,
-				BAC4805D290BED5C00315266 /* SecondViewController.swift in Sources */,
+				BA65C708291804DF00550C3E /* SecondVC7.swift in Sources */,
 				BAC48057290BD32400315266 /* TabBarController.swift in Sources */,
-				BAC4805B290BEC7F00315266 /* NestedView.swift in Sources */,
+				BA65C7062917FC7200550C3E /* FirstVC7.swift in Sources */,
 				BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */,
-				BA65C7042917E93500550C3E /* ChallengeView.swift in Sources */,
-				BA8D005F290FB9D000DFE178 /* EqualSpacingVC.swift in Sources */,
 				BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */,
-				BAC48059290BE36B00315266 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
