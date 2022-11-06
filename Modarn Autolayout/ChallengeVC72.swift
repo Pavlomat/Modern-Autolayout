@@ -35,7 +35,6 @@ class ChallengeVC72: UIViewController {
         config.imagePlacement = .trailing
         config.imagePadding = 10.0
         
-        
         button.translatesAutoresizingMaskIntoConstraints = false
 //        button.setTitle("Share", for: .normal)
 //        button.setTitleColor(.black, for: .normal)
