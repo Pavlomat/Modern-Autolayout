@@ -21,7 +21,7 @@ class FirstViewController: UIViewController {
         setupView()
     }
     
-//    let guide = view.safeAreaLayoutGuide арсполагает наш вью относительно safe area
+//    let guide = view.safeAreaLayoutGuide располагает наш вью относительно safe area
 //    redView.leadingAnchor.constraint(equalTo: guide.leadingAnchor)
 //    redView.trailingAnchor.constraint(equalTo: guide.trailingAnchor)
     
