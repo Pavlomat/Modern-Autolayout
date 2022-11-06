@@ -30,13 +30,14 @@ class ChallengeView: UIView {
         addSubview(redView)
         
         NSLayoutConstraint.activate([
-            blueView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
-            blueView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
-            blueView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding),
-            blueView.trailingAnchor.constraint(equalTo: redView.trailingAnchor, constant: padding),
-            redView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
-            redView.topAnchor.constraint(equalTo: topAnchor, constant: padding),
-            redView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: padding), redView.widthAnchor.constraint(equalTo: blueView.widthAnchor)
+            blueView.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor, constant: padding),
+            blueView.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: padding),
+            blueView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor, constant: -padding),
+            redView.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor, constant: padding),
+            redView.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor, constant: -padding),
+            redView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor, constant: -padding),
+            blueView.trailingAnchor.constraint(equalTo: redView.leadingAnchor, constant: -padding),
+            blueView.widthAnchor.constraint(equalTo: redView.widthAnchor)
         ])
     }
     

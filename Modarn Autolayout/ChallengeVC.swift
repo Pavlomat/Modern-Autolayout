@@ -27,14 +27,13 @@ class ChallengeVC: UIViewController {
     
     private func setupView() {
         
-        view.directionalLayoutMargins = NSDirectionalEdgeInsets(top: margin, leading: margin, bottom: margin, trailing: margin)
         view.backgroundColor = .yellow
         view.addSubview(challengeView)
         
         NSLayoutConstraint.activate([
-            challengeView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            challengeView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
-            challengeView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
+            challengeView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: margin),
+            challengeView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor, constant: margin),
+            challengeView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor, constant: -margin),
             challengeView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.25)
         ])
     }

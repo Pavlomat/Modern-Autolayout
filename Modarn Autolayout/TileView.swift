@@ -43,7 +43,8 @@ class TileView: UIView {
         addSubview(redView)
     }
     
-    override func layoutSubviews() { super.layoutSubviews()
+    override func layoutSubviews() {
+        super.layoutSubviews()
         // Size of this container view
         let containerWidth = bounds.width
         let containerHeight = bounds.height
