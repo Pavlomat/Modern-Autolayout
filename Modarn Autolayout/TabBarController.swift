@@ -32,8 +32,8 @@ class TabBarController: UITabBarController {
         viewControllers = [
             createNavController(for: FirstVC7(), title: NSLocalizedString("First", comment: ""), image: UIImage(systemName: "1.circle")!),
             createNavController(for: SecondVC7(), title: NSLocalizedString("Second", comment: ""), image: UIImage(systemName: "2.circle")!),
-            createNavController(for: ChallengeVC7(), title: NSLocalizedString("Third", comment: ""), image: UIImage(systemName: "3.circle")!)
-//            createNavController(for: ChallengeVC(), title: NSLocalizedString("Fourth", comment: ""), image: UIImage(systemName: "4.circle")!)
+            createNavController(for: ChallengeVC71(), title: NSLocalizedString("Third", comment: ""), image: UIImage(systemName: "3.circle")!)
+            createNavController(for: ChallengeVC72(), title: NSLocalizedString("Fourth", comment: ""), image: UIImage(systemName: "4.circle")!)
         ]
     }
 }

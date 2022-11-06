@@ -1,5 +1,5 @@
 //
-//  ChallengeVC7.swift
+//  ChallengeVC72.swift
 //  Modarn Autolayout
 //
 //  Created by Pavlov Matvey on 06.11.2022.
@@ -7,9 +7,18 @@
 
 import UIKit
 
-class ChallengeVC7: UIViewController {
+class ChallengeVC72: UIViewController {
     
-    private let leftLabel = UILabel()
+    private let label: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "To be or not to be, that is the question"
+        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 24.0)
+        label.backgroundColor = .purple
+        label.numberOfLines = 0
+        return label
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,16 +37,4 @@ class ChallengeVC7: UIViewController {
      }
      */
     
-}
-
-private extension UILabel {
-    private func makeLabel(text: String, color: UIColor) -> UILabel {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = text
-        label.font = UIFont.systemFont(ofSize: 64.0)
-        label.backgroundColor = color
-        label.numberOfLines = 0
-        return label
-    }
 }
