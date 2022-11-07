@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondVC7: UIViewController {
+class SecondVC8: UIViewController {
     
     private enum ViewMetrics {
         static let margin: CGFloat = 20.0

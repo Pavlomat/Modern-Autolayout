@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FirstVC7: UIViewController {
+class FirstVC8: UIViewController {
     
     private enum ViewMetrics {
         static let fontSize: CGFloat = 24.0
