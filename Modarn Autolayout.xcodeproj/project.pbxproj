@@ -16,7 +16,6 @@
 		BA9D25FB290A807900C8F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */; };
 		BA9D282F2918F7E3006A7950 /* ThirdVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D282E2918F7E3006A7950 /* ThirdVC8.swift */; };
 		BAA125CF2918158B00A74604 /* ChallengeVC82.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA125CE2918158B00A74604 /* ChallengeVC82.swift */; };
-		BAA125D12918323000A74604 /* ChallengeVC73.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA125D02918323000A74604 /* ChallengeVC73.swift */; };
 		BAC48057290BD32400315266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC48056290BD32400315266 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		BA9D25FC290A807900C8F935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9D282E2918F7E3006A7950 /* ThirdVC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC8.swift; sourceTree = "<group>"; };
 		BAA125CE2918158B00A74604 /* ChallengeVC82.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeVC82.swift; sourceTree = "<group>"; };
-		BAA125D02918323000A74604 /* ChallengeVC73.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeVC73.swift; sourceTree = "<group>"; };
 		BAC48056290BD32400315266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +72,6 @@
 				BA9D282E2918F7E3006A7950 /* ThirdVC8.swift */,
 				BA65C7092918074B00550C3E /* ChallengeVC81.swift */,
 				BAA125CE2918158B00A74604 /* ChallengeVC82.swift */,
-				BAA125D02918323000A74604 /* ChallengeVC73.swift */,
 				BA9D25F7290A807900C8F935 /* Assets.xcassets */,
 				BA9D25F9290A807900C8F935 /* LaunchScreen.storyboard */,
 				BA9D25FC290A807900C8F935 /* Info.plist */,
@@ -157,7 +154,6 @@
 				BAC48057290BD32400315266 /* TabBarController.swift in Sources */,
 				BAA125CF2918158B00A74604 /* ChallengeVC82.swift in Sources */,
 				BA65C7062917FC7200550C3E /* FirstVC8.swift in Sources */,
-				BAA125D12918323000A74604 /* ChallengeVC73.swift in Sources */,
 				BA9D25EF290A807900C8F935 /* AppDelegate.swift in Sources */,
 				BA65C70A2918074B00550C3E /* ChallengeVC81.swift in Sources */,
 				BA9D25F1290A807900C8F935 /* SceneDelegate.swift in Sources */,
