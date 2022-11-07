@@ -23,16 +23,24 @@ class FirstVC11: UIViewController {
         return scrollView
     }()
     
+    private lazy var infoButton: UIButton = {
+        let button = UIButton(type: .infoDark)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(showInfo(_:)), for: .touchUpInside)
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .yellow
         view.tintColor = .black
-//        title = NSLocalizedString("Activity", comment: "")
+        //        title = NSLocalizedString("Activity", comment: "")
         setupView()
     }
     
     private func setupView() {
         view.addSubview(scrollView)
+        scrollView.addSubview(infoButton)
         
         NSLayoutConstraint.activate([
             scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -45,7 +53,14 @@ class FirstVC11: UIViewController {
             scrollView.trailingAnchor.constraint(equalTo: activityView.trailingAnchor),
             scrollView.bottomAnchor.constraint(equalTo: activityView.bottomAnchor),
             
-            scrollView.widthAnchor.constraint(equalTo: activityView.widthAnchor)
+            scrollView.widthAnchor.constraint(equalTo: activityView.widthAnchor),
+            
+            infoButton.leadingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.leadingAnchor), //тк если просто добавлять то скроется за нави бар или будет скролиться верх вниз
+            infoButton.topAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.topAnchor)
         ])
+    }
+    
+    @objc func showInfo(_ sender: UIButton) {
+        print("Hello")
     }
 }

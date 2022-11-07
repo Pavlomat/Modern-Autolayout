@@ -24,7 +24,7 @@ class SecondVC11: UIViewController {
     }()
     
     private lazy var scrollView: UIScrollView = {
-        let scrollView = UIScrollView()
+        let scrollView = AdaptiveScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.addSubview(stackView)
         return scrollView
@@ -34,7 +34,6 @@ class SecondVC11: UIViewController {
         super.viewDidLoad()
         setupView()
         view.backgroundColor = .cyan
-        
     }
     
     private func setupView() {
