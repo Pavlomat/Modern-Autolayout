@@ -34,11 +34,14 @@ class SecondVC11: UIViewController {
         super.viewDidLoad()
         setupView()
         view.backgroundColor = .cyan
-       
+        
     }
     
     private func setupView() {
         view.addSubview(scrollView)
+        
+        stackView.isLayoutMarginsRelativeArrangement = true
+        stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 8.0, leading: 8.0, bottom: 8.0, trailing: 8.0)
         
         NSLayoutConstraint.activate([
             scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
