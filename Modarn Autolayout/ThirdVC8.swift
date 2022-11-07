@@ -22,7 +22,7 @@ class ThirdVC8: UIViewController {
         return view
     }()
     
-    private let switchButton: UISwitch = {
+    private lazy var switchButton: UISwitch = {
         let button = UISwitch()
         button.isOn = true
         button.addTarget(self, action: #selector(axisChanged(_:)), for: .valueChanged)
