@@ -9,9 +9,9 @@ import UIKit
 
 class ThirdVC8: UIViewController {
     
-    private let firstImage = UIImageView.createImageView(image: "300x300")
-    private let secondImage = UIImageView.createImageView(image: "300x300")
-    private let thirdImage = UIImageView.createImageView(image: "300x300")
+    private let firstImage = createImageView(image: "300x300")
+    private let secondImage = createImageView(image: "300x300")
+    private let thirdImage = createImageView(image: "300x300")
     
     private lazy var insideStackView: UIStackView = {
         let view = UIStackView(arrangedSubviews: [firstImage, secondImage, thirdImage])
@@ -84,7 +84,7 @@ class ThirdVC8: UIViewController {
 
 }
 
-private extension UIImageView {
+private extension UIViewController {
     static func createImageView(image: String) -> UIImageView {
        let view = UIImageView()
         view.image = UIImage(named: image)
