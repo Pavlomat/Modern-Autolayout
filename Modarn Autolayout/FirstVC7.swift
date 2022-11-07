@@ -51,6 +51,17 @@ class FirstVC7: UIViewController {
     private func setupView() {
         view.addSubview(rootStackView)
         
+//        // Add to subviews
+//          stackView.addSubview(redButton) ВАЖНО addsubview просто добавляет вью к стаквью но не дает ему констранты и лейаут портится
+//          // Add to arrangedSubviews and subviews
+//          stackView.addArrangedSubview(redButton) ВАЖНО это правильное добавление вью к стаквью, так добавляются констранты и лейаут не портится
+        // чтобы убрать oneView из стаквью морально и физически нужно написать oneView.removeFromSuperview()
+        // можно делать разное расстояние между разными элементами стаквью но только в коде - stackView.setCustomSpacing(32.0, after: headerLabel)
+        // stackView.isBaselineRelativeArrangement = true для какого-то расстояния в вертикальном стаквью где только текст
+        
+//        stackView.isLayoutMarginsRelativeArrangement = true ЧТОБЫ добавить марджина, поумолчанию они отключены
+//        stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 8.0, leading: 8.0, bottom: 8.0, trailing: 8.0)
+        
         NSLayoutConstraint.activate([
             rootStackView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
             rootStackView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor)

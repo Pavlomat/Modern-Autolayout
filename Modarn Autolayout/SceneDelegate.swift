@@ -19,7 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.backgroundColor = .white   //уровень цвета 1 (самый низкий)
         window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible() //делает окно видимым (обязательно)
-        
     }
 }
 
