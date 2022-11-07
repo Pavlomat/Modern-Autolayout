@@ -23,7 +23,7 @@ setupView()
     }
     
     private func setupView() {
-        view.backgroundColor = .yellow
+        view.backgroundColor = .blue
         view.addSubview(greenView)
         
         let topAnchor = greenView.topAnchor.constraint(equalTo: view.topAnchor)
